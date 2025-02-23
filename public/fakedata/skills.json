@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Figma",
+    "img": "/portfoliojigyas/img/icons/figma.png",
+    "perchant": "92%"
+  },
+  {
+    "name": "Sketch",
+    "img": "/portfoliojigyas/img/icons/sketch.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "XD",
+    "img": "/portfoliojigyas/img/icons/xd.png",
+    "perchant": "85%"
+  },
+  {
+    "name": "WordPress",
+    "img": "/portfoliojigyas/img/icons/wp.png",
+    "perchant": "99%"
+  },
+  {
+    "name": "React",
+    "img": "/portfoliojigyas/img/icons/react.png",
+    "perchant": "89%"
+  },
+  {
+    "name": "JavaScript",
+    "img": "/portfoliojigyas/img/icons/js.png",
+    "perchant": "93%"
+  }
+]

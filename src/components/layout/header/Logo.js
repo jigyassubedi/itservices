@@ -1,0 +1,35 @@
+"use client";
+import { useHeaderContext } from "@/context_api/HeaderContext";
+import Image from "next/image";
+import Link from "next/link";
+
+const Logo = ({ isSticky }) => {
+  const { isInnerPage } = useHeaderContext();
+  return (
+    <Link href="/" className="logo">
+      <Image
+        className={`w-15 h-15  ${
+          isInnerPage && !isSticky
+            ? "inline-block   "
+            : " hidden dark:inline-block"
+        } `}
+        src="/portfoliojigyas/img/logo/logo.png"
+        alt=""
+        width={1000}
+        height={1000}
+        unoptimized
+      />
+      <Image
+        className={`w-15 h-15  ${
+          isInnerPage && !isSticky ? "hidden" : "inlin-block dark:hidden"
+        }`}
+        src="/portfoliojigyas/img/logo/logo-dark.png"
+        alt=""
+        width={1000}
+        height={1000}
+      />
+    </Link>
+  );
+};
+
+export default Logo;

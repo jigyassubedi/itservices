@@ -1,0 +1,24 @@
+[
+
+    {
+      "name":"Services",
+      "path":"#services",
+      "path2":"/#services"  
+    },
+    {
+      "name":"Works",
+      "path":"#portfolio",
+      "path2":"/#portfolio"  
+    },
+    
+    {
+      "name":"Testimonials",
+      "path":"#testimonials",
+      "path2":"/#testimonials"  
+    },
+    {
+      "name":"Contact",
+      "path":"#contact",
+      "path2":"/#contact"  
+    }
+]
