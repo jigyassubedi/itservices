@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  reactStrictMode: true, // Move reactStrictMode inside the object
 };
 
-module.exports = nextConfig;
+export default nextConfig;
