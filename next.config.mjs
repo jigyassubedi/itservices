@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: 'export',
+  distDir: 'out',
   images: {
-    unoptimized: true, // Required for GitHub Pages
+    unoptimized: true,
   },
-  basePath: "/itservices", // Important for GitHub Pages
 };
+
 module.exports = nextConfig;
