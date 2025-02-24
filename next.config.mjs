@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'out',
+  output: "export",
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for GitHub Pages
   },
-  reactStrictMode: true, // Move reactStrictMode inside the object
+  basePath: "/itservices", // Important for GitHub Pages
 };
-
-export default nextConfig;
+module.exports = nextConfig;
